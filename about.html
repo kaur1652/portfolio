@@ -44,15 +44,15 @@
   <!-- Main Content -->
   <main role="main" id="main-content" class="container py-5 px-5 px-xl-6">
     <div class="row">
-      <!-- Right Column: Image (shown first on mobile) -->
+      <!-- Right Column: Image  -->
       <div
         class="col-12 col-sm-6 order-1 order-md-2 text-center mb-4 mb-md-0 d-flex justify-content-center align-items-start">
         <picture>
           <!-- Mobile first -->
-          <source src="./images/my-image.jpg" type="image/jpeg" media="(max-width: 767px)">
+          <source srcset="./images/my-image.jpg" type="image/jpeg" media="(max-width: 767px)">
 
           <!-- Laptop -->
-          <source src="./images/my-image-small.jpg" type="image/jpeg" media="(min-width: 768px)">
+          <source srcset="./images/my-image-small.jpg" type="image/jpeg" media="(min-width: 768px)">
 
           <!-- Fallback <img> tag -->
           <img src="./images/my-image.jpg" alt="Khushpreet Kaur" class="img-fluid rounded shadow"
@@ -60,7 +60,7 @@
         </picture>
       </div>
 
-      <!-- Left Column: Text Content (shown after image on mobile) -->
+      <!-- Left Column: Text Content  -->
       <div
         class="col-12 col-sm-6 order-2 order-md-1 text-center text-md-start d-flex flex-column justify-content-center px-3 px-md-4">
         <!-- Who I Am -->
