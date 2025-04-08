@@ -58,7 +58,12 @@ p {
 
 /* When the skip link is focused, make it visible */
 .skip-link:focus {
-  top: 10px;  /* Move it back into view when focused */
+  top: 10px;  /* Ensure it’s visible when tabbed */
+  left: 0;
+  background-color: #18386D;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .navbar-nav .nav-link {
