@@ -43,7 +43,25 @@
     <div class="row">
         <!-- Right Column: Image (shown first on mobile) -->
         <div class="col-12 col-sm-6 order-1 order-md-2 text-center mb-4 mb-md-0 d-flex justify-content-center align-items-start">
-            <img src="./images/my-image.jpg" alt="Khushpreet Kaur" class="img-fluid rounded shadow" style="max-height: 600px;">
+          <picture>
+            <!-- Mobile first (max-width: 767px) -->
+           
+            <source src="./images/my-image.jpg" type="image/jpeg" media="(max-width: 767px)">
+          
+            <!-- Laptop and up (768px and above) -->
+           
+            <source src="./images/my-image-small.jpg" type="image/jpeg" media="(min-width: 768px)">
+          
+            <!-- Fallback <img> tag -->
+            <img 
+              src="./images/my-image.jpg" 
+              alt="Khushpreet Kaur" 
+              class="img-fluid rounded shadow" 
+              style="max-height: 600px;" 
+              loading="lazy" 
+              width="400" 
+              height="600">
+          </picture>
         </div>
 
         <!-- Left Column: Text Content (shown after image on mobile) -->
