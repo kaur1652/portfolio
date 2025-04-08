@@ -104,25 +104,8 @@ p {
     margin-bottom: 0.2rem;
    
   }
-  /* Logo Animation */
-@keyframes logoZoomIn {
-  0% {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.navbar-brand img {
-  opacity: 0;
-  animation: logoZoomIn 0.8s ease-out forwards;
-  animation-delay: 0.2s;
-}
-
-  @keyframes navFadeUp {
+  
+  /* @keyframes navFadeUp {
     0% {
       opacity: 0;
       transform: translateY(20px);
@@ -150,7 +133,7 @@ p {
   .navbar-nav .nav-item:nth-child(4) {
     animation-delay: 0.8s;
   }
-  
+   */
 
 
 
