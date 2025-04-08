@@ -1,50 +1,54 @@
-
+/* custom variables */
 :root {
+  --background-color: #ECECEC;
   --bs-dark-rgb: 66, 66, 66;
-  --bs-heading-2: 2rem;   
-  --bs-heading-3: 1.75rem; 
-  --bs-heading-4: 1.5rem;   
+  --bs-heading-2: 2rem;
+  --bs-heading-3: 1.75rem;
+  --bs-heading-4: 1.5rem;
   --bs-paragraph: 1rem;
   --bs-nav-link: 1.5rem;
   --btn-primary: #18386D;
   --btn-outline-primary: #18386D;
   --btn-hover-color: #4A6EDB;
-  --bs-button-font-size: 1rem; /* 16px */
-  --bs-button-padding: 0.5rem 1rem; /* Padding for the button */
-  --bs-button-border-radius: 0.25rem; /* Border radius for the button */
-  
+  --bs-button-font-size: 1rem;
+  --bs-button-padding: 0.5rem 1rem;
+  --bs-button-border-radius: 0.25rem;
 }
-body{
-  background-color: #Ececec;
-  
 
+/* Apply background color */
+body {
+  background-color: var(--background-color);
 }
+
+/* Styling for navigation links */
 .nav-link {
   font-size: var(--bs-nav-link);
 }
 
-
+/* Styling for h2 headings */
 h2 {
   font-size: var(--bs-heading-2);
 }
 
+/* Styling for h3 headings */
 h3 {
   font-size: var(--bs-heading-3);
 }
 
+/* Styling for h4 headings */
 h4 {
   font-size: var(--bs-heading-4);
 }
 
-
+/* Styling for paragraphs */
 p {
   font-size: var(--bs-paragraph);
 }
 
-/* Hide the skip link initially */
+/* Skip link: Initially hidden, shown on focus for better accessibility */
 .skip-link {
   position: absolute;
-  top: -40px; /* Move it out of view */
+  top: -40px;
   left: 0;
   padding: 8px;
   background-color: var(--btn-primary);
@@ -56,9 +60,9 @@ p {
   z-index: 1000;
 }
 
-/* When the skip link is focused, make it visible */
+/* Style when the skip link is focused (accessibility feature) */
 .skip-link:focus {
-  top: 10px;  /* Ensure it’s visible when tabbed */
+  top: 10px;
   left: 0;
   background-color: #18386D;
   color: white;
@@ -66,34 +70,39 @@ p {
   text-transform: uppercase;
 }
 
+/* Styling for navbar links */
 .navbar-nav .nav-link {
-  color: #424242; /* Default text color */
-  
+  color: #424242;
+
   padding: 0.5rem 1rem;
-  border-radius: 0.5rem; /* Slight rounding for shadow to show nicely */
+  border-radius: 0.5rem;
 }
 
+/* Hover effect for navbar links */
 .navbar-nav .nav-link:hover {
-  color: #424242; /* Dark grey hover text */
-  box-shadow: 0 4px 10px rgba(66,66,66); /* Soft shadow */
-  background-color: #f8f9fa; /* Optional: light background on hover */
+  color: #424242;
+  box-shadow: 0 4px 10px rgba(66, 66, 66);
+  background-color: #f8f9fa;
 }
 
-
-.btn{
-   background-color: var(--btn-primary);
-    font-size: var(--bs-button-font-size);
-    border-color: var(--btn-outline-primary);
-    padding: var(--bs-button-padding);
-    border-radius: var(--bs-button-border-radius);
-    color: #cccccc;
-    transition: all 0.3s ease;
+/* Button styling */
+.btn {
+  background-color: var(--btn-primary);
+  font-size: var(--bs-button-font-size);
+  border-color: var(--btn-outline-primary);
+  padding: var(--bs-button-padding);
+  border-radius: var(--bs-button-border-radius);
+  color: #cccccc;
+  transition: all 0.3s ease;
 }
-.btn-outline-secondary{
+
+/* Outline button styling */
+.btn-outline-secondary {
   background-color: var(--btn-outline-primary);
   transition: all 0.3s ease;
 }
 
+/* Hover effect for outline buttons */
 .btn-outline-primary:hover,
 .btn-outline-secondary:hover {
   background-color: var(--btn-hover-color);
@@ -102,27 +111,33 @@ p {
   border-radius: 2rem;
 }
 
-.btn-primary:hover{
+/* Hover effect for primary buttons */
+.btn-primary:hover {
   border-radius: 2rem;
 }
+
+/* Styling for resume button */
 .resume-btn {
-  border-radius: 50rem; 
+  border-radius: 50rem;
   transition: all 0.3s ease;
 }
+
+/* Hover effect for resume button */
 .resume-btn:hover {
-  border-radius: 0.25rem; 
+  border-radius: 0.25rem;
 }
 
+/* Styling for bullet point lists */
 .bullet-list {
-    list-style-type: disc;
-    padding-left: 1rem;
-    margin: 0 auto;
-    max-width: 600px;
-    text-align: left;
-  }
-  
-  .bullet-list li {
-    margin-bottom: 0.2rem;
-   
-  }
-  
+  list-style-type: disc;
+  padding-left: 1rem;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Styling for each list item */
+.bullet-list li {
+  margin-bottom: 0.2rem;
+
+}
