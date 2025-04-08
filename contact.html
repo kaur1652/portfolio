@@ -19,9 +19,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/WebPage">
+  <!-- Skip to Content Link  -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light  animate__animated animate__fadeInDown">
+    <nav class="navbar navbar-expand-lg navbar-light  animate__animated animate__fadeInDown"  role="navigation" aria-label="Main Navigation">
       <div class="container">
           <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="KhushiWebWorks Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,7 +42,7 @@
       </div>
   </nav>
   <!-- main content -->
-  <main>
+  <main role="main" aria-label="Contact Page" id="main">
   <div class="container my-5">
     <h2 class="text-center fw-bold mb-4" style="color: #18386D;">
       Get in touch with me via social media or send me an e-mail
@@ -85,19 +88,18 @@
       </div>
     </div>
   </div>
-</main>
-  
-    
-    
-
-    <div class="container text-center my-5">
+  <!-- contact form -->
+    <div class="container text-center my-5" role="form" aria-label="Email Contact Form">
         <h3 class="p-4 text-center fw-bold " style="color: #18386D;" >Send me an email</h3>
         <form class="row g-4 justify-content-center">
             <div class="col-md-4">
+              <label for="name" class="form-label visually-hidden">Name</label>
                 <input type="text" class="form-control" placeholder="Name" required>
+                <label for="name" class="form-label visually-hidden">E-mail</label>
                 <input type="email" class="form-control mt-3" placeholder="E-mail" required>
             </div>
             <div class="col-md-4">
+              <label for="message" class="form-label visually-hidden">Message</label>
                 <textarea class="form-control" placeholder="Message" rows="4" required></textarea>
             </div>
             <div class="col-12 ">
@@ -105,10 +107,11 @@
             </div>
         </form>
     </div>
+  </main>
 
    
 <!-- Footer -->
-<footer class="bg-dark text-white text-center  py-4" role="contentinfo">
+<footer class="bg-dark text-white text-center py-4" role="contentinfo">
   <div class="container">
     <div class="row">
       <!-- Desktop Social Media Links -->
