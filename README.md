@@ -58,7 +58,10 @@ Some animation libraries and icon fonts didn’t load properly at first. I check
 Below is a list of resources that I used in this project that are not my own:
 
 ###  Fonts
+- [Google Fonts – Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
 - [Google Fonts – Poppins](https://fonts.google.com/specimen/Poppins)
+- [Google Fonts – Montserrat](https://fonts.google.com/specimen/Montserrat)
+
 
 ###  Frameworks & Libraries
 - [Bootstrap 5](https://getbootstrap.com/)
