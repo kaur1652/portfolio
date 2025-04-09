@@ -6,8 +6,8 @@ Welcome to **KhushiWebWorks**, the personal portfolio website of **Khushpreet Ka
 ---
 ## Design Prototype
 
-I created the design prototype for this portfolio using Figma. You can view it here:  
- [Figma Prototype – kaur_khushpreet_prototype](https://www.figma.com/design/6A954oaBdy7GQMTbNguPJB/kaur_khushpreet_prototype.?node-id=2-7&p=f&t=GrbzKWqc87lM1aEE-0)
+I created the design prototype for this portfolio using Figma.  
+<a href="https://www.figma.com/design/6A954oaBdy7GQMTbNguPJB/kaur_khushpreet_prototype.?node-id=2-7&p=f&t=GrbzKWqc87lM1aEE-0" target="_blank">👉 View My Figma Prototype</a>
 
 
 ##  Interview Insight: The Development Process
