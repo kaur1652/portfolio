@@ -64,7 +64,9 @@ h1, h2, h3, h4 {
   box-shadow: 0 4px 10px rgba(66, 66, 66);
   background-color: #f8f9fa;
 }
-
+.blockquote-footer{
+  color: var(--btn-outline-primary);
+}
 /* Button styling */
 .btn {
   background-color: var(--btn-primary);
