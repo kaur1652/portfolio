@@ -2,7 +2,6 @@
 :root {
   --background-color: #ECECEC;
   --bs-dark-rgb: 66, 66, 66;
- 
   --btn-primary: #18386D;
   --btn-outline-primary: #18386D;
   --btn-hover-color: #4A6EDB;
@@ -15,8 +14,6 @@
 body {
   background-color: var(--background-color);
 }
-
-
 
 /* Skip link: Initially hidden, shown on focus for better accessibility */
 .skip-link {
@@ -84,15 +81,11 @@ body {
   border-radius: 2rem;
 }
 
-
-
 /* Styling for resume button */
 .resume-btn {
   border-radius: 50rem;
   transition: all 0.3s ease;
 }
-
-
 
 /* Styling for bullet point lists */
 .bullet-list {
