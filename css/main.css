@@ -84,10 +84,7 @@ body {
   border-radius: 2rem;
 }
 
-/* Hover effect for primary buttons */
-.btn-primary:hover {
-  border-radius: 2rem;
-}
+
 
 /* Styling for resume button */
 .resume-btn {
@@ -95,10 +92,7 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Hover effect for resume button */
-.resume-btn:hover {
-  border-radius: 0.25rem;
-}
+
 
 /* Styling for bullet point lists */
 .bullet-list {
